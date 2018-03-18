@@ -16,10 +16,10 @@
               <div id="screen">
                 <div class="row" id="#optionsDisplay">
                   <div class="col-xs-6">
-                    <p class="text-center bordertop"><span>05:00</span></br>Break</p>
+                    <p class="text-center bordertop"><span id="breakOptionDisplay">05:00</span></br>Break</p>
                   </div>
                   <div class="col-xs-6">
-                    <p class="text-center bordertop"><span>25:00</span></br>Work</p>
+                    <p class="text-center bordertop"><span id="workOptionDisplay">25:00</span></br>Work</p>
                   </div>
                 </div>
                 <div class="row">
@@ -27,6 +27,25 @@
                   <h3 class="text-center" id="modeDisplay">Work</h3>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-2 col-xs-offset-2">
+              <button class="round" id="start">S</button>
+            </div>
+            <div class="col-xs-2">
+              <button class="round" id="pause">P</button>
+            </div>
+            <div class="col-xs-2">
+              <button class="round" id="reset">R</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4 col-xs-offset-2">
+              <input type="number" placeholder="Work" id="workInput"/>
+            </div>
+            <div class="col-xs-4">
+              <input type="number" placeholder="Break" id="breakInput"/>
             </div>
           </div>
         </div>

@@ -28,3 +28,17 @@ body {
 #timerDisplay {
   font-size: 5em;
 }
+
+.round {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  margin: 30px auto;
+  display: block;
+}
+
+input{
+  width: 100%;
+}
