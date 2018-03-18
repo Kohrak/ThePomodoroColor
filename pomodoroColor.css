@@ -1,4 +1,30 @@
 body {
   background-color: #070707;
   font-family: 'Audiowide', cursive;
+  color: black;
+}
+
+#case {
+  height: 600px;
+  width: 90%;
+  background-color: #553555;
+  border-radius: 15px;
+}
+.container {
+  margin-top: 40px;
+}
+
+#screen {
+  background-color: #806d40;
+  width: 100%;
+  height: 300px;
+  border: 10px solid black;
+}
+
+.bordertop {
+  margin-top: 10px;
+}
+
+#timerDisplay {
+  font-size: 5em;
 }
