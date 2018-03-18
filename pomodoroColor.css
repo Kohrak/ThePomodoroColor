@@ -32,13 +32,26 @@ body {
 .round {
   height: 40px;
   width: 40px;
-  border: none;
   border-radius: 50%;
-  background: white;
+  background: #070707;
   margin: 30px auto;
   display: block;
+  outline: none;
+  color: white;
 }
 
 input{
   width: 100%;
+  margin: 0 auto;
+  outline: none;
+  background-color: #806d40;
+  border: none;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+}
+
+#name{
+  color: white;
+  padding-top: 10px;
 }
