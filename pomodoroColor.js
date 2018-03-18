@@ -49,16 +49,21 @@ function changemode(mode){
 
 function restart(){
   clearInterval(timerID);
+  running = false;
   currentTime = worktime;
   updateDisplay(currentTime);
   displays.mode.textContent = "Work";
 }
 
 buttons.start.addEventListener("click", function(){
-  timerID = startTimer();
+  if (!running){
+    running = true;
+    timerID = startTimer();
+  }
 })
 
 buttons.pause.addEventListener("click", function(){
+  running = false;
   clearInterval(timerID);
 })
 
